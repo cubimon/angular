@@ -31,7 +31,7 @@ export const RouteTitleKey = /* @__PURE__ */ Symbol('RouteTitle');
  * @publicApi
  */
 export type Params = {
-  [key: string]: any;
+  readonly [key: string]: any;
 };
 
 /**
